@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.MojodiWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MojodiWindow" Height="450" Width="800" Background="#FFA8BBA3">
+    <Canvas>
+        <Label x:Name="lbl1" HorizontalContentAlignment="Center" Content="موجودی شما" Margin="325,80,307,284" FontWeight="Bold" FontSize="18" Width="180"/>
+        <Label x:Name="lblMojodi"  HorizontalContentAlignment="Center" Content="" FontWeight="Bold" FontSize="18" Height="34" Width="180" Canvas.Left="325" Canvas.Top="134" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button x:Name="btnBargasht" Content="برگشت" Canvas.Left="32" Canvas.Top="236" HorizontalAlignment="Left" VerticalAlignment="Top" Width="148" Height="82" Background="#FFEBD9D1" FontSize="16" FontWeight="Bold" Click="btnBargasht_Click"/>
+        <Button x:Name="btnKhoroj" Content="خروج" Canvas.Left="620" Canvas.Top="238" Width="148" Height="82" Background="#FFEBD9D1" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btnKhoroj_Click"/>
+
+    </Canvas>
+</Window>
